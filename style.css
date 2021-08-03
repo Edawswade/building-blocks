@@ -1,0 +1,42 @@
+*{
+    padding: 20px;
+}
+
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+}
+header{
+    background-color:aquamarine;
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+
+}
+@media screen and (max-width: 600px) {
+    header{
+        display: block;
+    }
+}
+nav{
+    background-color: dodgerblue;
+}
+main{
+    background-color:fuchsia;
+}
+article{
+    background-color:honeydew;
+}
+section{
+background-color: indigo;
+
+}
+aside{
+    background-color:lightcoral;
+}
+footer{
+    background-color:navy;
+    background-image: url('http://colrd.com/misc/library/pattern/Squidfingers/73.gif');
+}
